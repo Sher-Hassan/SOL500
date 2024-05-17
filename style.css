@@ -1,0 +1,460 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+#sec-1 {
+  background-color: #c4162f;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  align-items: center;
+  margin: 2vw 0;
+}
+.menp1 {
+  width: 4.5vw;
+  margin: 1vw 0.8vw 0.8vw;
+  transition: all 0.2s ease;
+}
+.menp1:hover{
+    transform: scale(1.1);
+}
+.menp2 {
+    width: 6.5vw;
+    margin: 0vw 0.1vw;
+    transition: all 0.2s ease;
+}
+.menp2:hover{
+    transform: scale(1.1);
+}
+.logop {
+  width: 20vw;
+  margin: 0 0 0 1vw;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.logop:hover{
+    transform: scale(1.1);
+}
+.home{
+    background-image: url(images/hmp.png);
+    background-size: 48vw;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 45vw;
+}
+.hdes {
+    margin: 15vw 3vw;
+    width: 49vw;
+    font-family: "Inter", sans-serif;
+}
+.foot {
+  width: 50vw;
+  margin: 7vw 0;
+}
+.hdes1 {
+  font-size: 4vw;
+  font-weight: 800;
+  color: white;
+}
+.hdes2 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+.hbtns {
+  font-size: 4vmax;
+  font-weight: 800;
+  color: white;
+}
+.hbtns{
+    margin-top: 1vw; 
+    font-family: "Inter", sans-serif;
+}
+
+.mbt{
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-right: 1vw;
+    width: 15vw;
+    font-size: 2vw;
+    background-color: white;
+    color: black;
+    margin-top: 1vw;
+    border-radius: 15px;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-flex;
+    justify-content: center;
+}
+.mbt1{
+    padding: 1vw 5vw;
+    transition: all 0.2s ease;
+}
+.mbt2{
+    padding: 1vw 3vw;
+    color: white;
+    border: 1px solid white;
+    background-color: #c4162f;
+    transition: all 0.2s ease;
+    width: 15vw;
+
+}
+.mbt1:hover{
+    transform: scale(1.1);
+}
+.mbt2:hover{
+    transform: scale(1.1);
+}
+.mbt:hover{
+    transform: scale(1.1);
+}
+.iom{
+    width: 51vw;
+}
+#sec-2{
+  background-color: #c4162f;
+  background-image: url(images/sec2-img.png);
+  background-position: center;
+  background-size: 100vw;  
+  position: relative;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 50vw;
+  overflow: hidden;
+}
+.sec2L {
+  justify-self: flex-start;
+  position: absolute;
+  left: -5vw;
+  width: 32vw;
+  bottom: 0vw;
+}
+
+.sec2R {
+  justify-self: flex-End;
+  right: -163px;
+  position: absolute;
+  bottom: 0;
+  width: 45vw;
+}
+.sec2frm{
+  width: 50vw;
+}
+.banner-container {
+    overflow: hidden;
+    width: 100%;
+    height: 5vw; /* adjust to the height of your banner content */
+  }
+  
+  .banner {
+    width: 200%; /* adjust to the width of your banner content */
+    height: 100%;
+    position: relative;
+    animation: move-banner 50s linear infinite;
+  }
+  
+  .banner img {
+    position: absolute;
+    width: 1500%;
+    height: 5vw;
+    top: 0;
+    left: 0;
+}
+.sec2-img {
+    width: 100%;
+    /* height: 136%; */
+}
+  
+  @keyframes move-banner {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+  .sec3-img{
+    width: 100%;
+  }
+  .expandable {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out; 
+    color: white;
+    align-content: start;
+  }
+  #sec-3{
+    background-color: #c4162f;
+    height: 58vw;
+    overflow: hidden;
+  }
+  .sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #c4162f;
+    
+  }
+  .sec3L{
+    width: 42vw;
+    right: 29vw;
+    position: relative;
+
+  }
+  .sec3R{
+    position: absolute;
+    bottom: 2vw;
+    right: 2vw;
+    width: 40vw;
+}
+
+
+  .supply {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 0 1vw;
+    margin: 2vw;
+}
+  
+.tax {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 3vw;
+}
+  .ca{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 2vw;
+  }
+  .content {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.5s ease-in-out;
+    color: white;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .expanded {
+    height: auto;
+    transition: all 0.2s ease;
+  }
+  #sec-4{
+    background-color: #c4162f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4vw;
+  }
+  .secimg>img{
+ 
+      margin-top: 4vw;
+      width: 5vw;
+  }
+ .htbsoll {
+    padding: 1vw 0;
+    color: white;
+    font-size: 3vw;
+    font-weight: 600;
+}
+.sec4i {
+  color: white;
+  font-size: 2vw;
+  text-decoration: underline;
+  text-underline-offset: 1vw;
+}
+.sec4i {
+  color: white;
+  font-size: 2vw;
+  text-decoration: underline;
+  text-underline-offset: 1vw;
+  line-height: 5vw;
+  font-weight: 800;
+}
+  .sec4{
+    background-image: url(images/sec4-b.png);
+    background-size: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw 0;
+  }
+
+  .bsp{
+    margin-bottom: 4vw;
+  }
+  .sp500{
+
+      margin-top: 9vw;
+      width: 14vw;
+  }
+  .basepic {
+    width: 36vw;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+@media screen and (max-width: 600px) {
+  #sec-1{
+    height: 95vh;
+  }
+  #sec-2{
+    height: 95vh;
+    overflow-x: hidden;
+  }
+  #sec-3{
+    height: 55vh;
+  }
+  #sec-4{
+    height: 65vh;
+  }
+  .menp1{
+    width: 8.5vw;
+  }
+  .menp2{
+    width: 11.5vw;
+  }
+  .logop {
+    width: 28vw;
+   }
+   .home {
+    background-image: url(images/hmp.png);
+    background-size: 101vw;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 88vw;
+}
+#sec-1{
+  position: relative;
+}
+.hdes {
+  margin: 2vw 3vw;
+  width: 76vw;
+  font-family: "Inter", sans-serif;
+  position: relative;
+  top: 90vw;
+  right: 18vw;
+}
+.hdes1 {
+  font-size: 7vw;
+  font-weight: 800;
+  color: white;
+}
+.hdes2 {
+  color: white;
+  font-weight: 500;
+  font-size: 3.5vw;
+}
+.mbt1 {
+  padding: 1vw 16vw;
+  transition: all 0.2s ease;
+  font-size: 7vw;
+}
+.mbt2 {
+  padding: 1vw 19vw;
+  font-size: 7vw;
+ }
+ #sec-2 {
+  height: 25vh;
+}
+.supply {
+  font-family: "Inter", sans-serif;
+  font-size: 8vw;
+  font-weight: 900;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 0 1vw;
+  margin: 5vw 0;
+}
+.tax {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 6vw;  
+}
+.ca {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 4vw;
+}
+.sec3L {
+  width: 86vw;
+  right: 24vw;
+  position: relative;
+}
+.sec3R {
+  position: absolute;
+  bottom: 4vw;
+  right: -9vw;
+  width: 40vw;
+}
+.secimg>img {
+  margin-top: 4vw;
+  width: 20vw;
+}
+.htbsoll {
+  padding: 1vw 0;
+  color: white;
+  font-size: 8vw;
+  font-weight: 600;
+}
+.sec4i {
+  color: white;
+  font-size: 6vw;
+  text-decoration: underline;
+  text-underline-offset: 1vw;
+  line-height: 15vw;
+  font-weight: 800;
+}    
+.sp500 {
+  margin-top: 9vw;
+  width: 44vw;
+}
+.baslog{
+  list-style: none;
+    display: flex;
+    padding-top: 21vw;
+    margin-right: 22.5vw;
+}
+.sp500 {
+  margin-top: 9vw;
+  width: 44vw;
+  margin-right: 42vw;
+}
+.foot {
+    width: 93vw;  
+    margin: 7vw 0;
+}
+
+}
